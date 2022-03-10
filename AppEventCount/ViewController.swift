@@ -25,7 +25,7 @@ class ViewController: UIViewController {
     
     @IBOutlet var willConnectToLabel: UILabel!
     
-    @IBOutlet var DidBecomeActiveLabel: UILabel!
+    @IBOutlet var didBecomeActiveLabel: UILabel!
     
     @IBOutlet var willResignActiveLabel: UILabel!
     
@@ -44,7 +44,7 @@ class ViewController: UIViewController {
         didFinishLaunchingLabel.text = "The App has launched \(didFinishLaunchingCount) times"
         configurationForConnectingLabel.text = "The App has connecting \(configurationForConnectingCount) times"
         willConnectToLabel.text = " The App will connect to \(willConnectCount) times"
-        DidBecomeActiveLabel.text = " The App did become active \(didBecomeActiveCount) times"
+        didBecomeActiveLabel.text = " The App did become active \(didBecomeActiveCount) times"
         willResignActiveLabel.text = " The App will resign active \(willResignActiveCount) times"
         willEnterForegroundLabel.text = " The App will enter foreground \(willEnterForegroundCount) times"
         didEnterBacgroundLabel.text = "The App did enter background \(didEnterBackgroundCount) times"

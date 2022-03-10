@@ -73,8 +73,8 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="DidBecomeActiveLabel" destination="5Yx-Bu-uSG" id="3tt-Ck-TCs"/>
                         <outlet property="configurationForConnectingLabel" destination="QL2-yy-ERt" id="6u2-ct-cns"/>
+                        <outlet property="didBecomeActiveLabel" destination="5Yx-Bu-uSG" id="GmV-gV-IAr"/>
                         <outlet property="didEnterBacgroundLabel" destination="JLr-Qy-bb4" id="a6H-An-4uU"/>
                         <outlet property="didFinishLaunchingLabel" destination="4Sy-K8-WXf" id="lbb-8k-pd1"/>
                         <outlet property="willConnectToLabel" destination="DoE-En-h41" id="kvE-bo-W1V"/>
